@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    body{
+      font-size: 15px;
+      font-family: 'Outfit';
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      height: 100vh;
+      width: 100vw;
+    }
+    .main-div{
+      height: 70vh;
+      width: 270px;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px;
+      box-shadow: hsl(212, 45%, 89%);
+    }
+    .qrc-img{
+      width: 100%;
+      height: 60%;
+    }
+    .qrc-img img{
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    h1{
+      font-size: 21px;
+    	font-weight: 700;
+    	text-align: center;
+    	color: hsl(218, 44%, 22%);
+    }
+    p{
+      font-size: 15px;
+    	font-weight: 400px;
+    	text-align: center;
+    	color: hsl(220, 15%, 55%);
+    }
+    .text-area{
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+    	align-items: flex-end;
+      padding:0 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-div">
+    <div class="qrc-img">
+      <img src="images/image-qr-code.png">
+    </div>
+    <div class="text-area">
+    	<h1>Imporove your front-end skills by buildding projects.</h1>
+    	<p>Scan the qr code to vist the Frontend Mentore and take your coding to the next level.</p>
+    </div>
+  </div>
+</body>
+</html>
